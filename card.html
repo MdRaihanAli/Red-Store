@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prodact_Details</title>
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px" alt="">
+                </div>
+                <nav>
+                    <ul class="nb">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="All_product.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="Account.html">Account</a></li>
+                    </ul>
+                   <div class="inline">
+                        <div class="cart">
+                            <a href="card.html"><img src="images/cart.png" width="30px" alt=""></a>
+                        </div>
+                        <div class="manu">
+                            <img src="images/menu.png" width="25px" alt="">
+                        </div>
+                   </div>
+                </nav>
+            </div>
+    
+        </div>
+
+
+        <!-- ---------------card detaills--------------? -->
+
+        <div class="mini-container card-details">
+            <table>
+                <tr>
+                    <th>prodaut</th>
+                    <th>qualuty   </th>
+                    <th>subtitle</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="details">
+                            <img src="images/buy-1.jpg" alt="">
+                        <div >
+                            <h6>Red prented t-shart</h6>
+                            <p>price :50</p>
+                            <small>removed</small>
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        <p>55</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="details">
+                            <img src="images/buy-1.jpg" alt="">
+                        <div >
+                            <h6>Red prented t-shart</h6>
+                            <p>price :50</p>
+                            <small>removed</small>
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        <p>55</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class="details">
+                            <img src="images/buy-1.jpg" alt="">
+                        <div >
+                            <h6>Red prented t-shart</h6>
+                            <p>price :50</p>
+                            <small>removed</small>
+                        </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" value="1">
+                    </td>
+                    <td>
+                        <p>55</p>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+       
+
+<footer>
+    <div class="mini-container">
+       <div class="row">
+        <div class="col-f-1">
+            <h5>Download Our App</h5>
+            <small>Download app for android and mobail</small>
+            <div class="app-icon">
+                <img src="images/app-store.png" alt="">
+                <img src="images/play-store.png" alt="">
+            </div>
+        </div>
+        <div class="col-f-2">
+            <img src="images/logo-white.png" width="125px" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilist illum!</p>
+        </div>
+        <div class="col-f-3">
+            <h5>Usefull Link</h5>
+            <ul>
+                <p>Coupond</p>
+                <p>Blog post</p>
+                <p>Return Popsy</p>
+                <p>Join Affipate</p>
+            </ul>
+        </div>
+        <div class="col-f-4">
+            <h5>Flow Us</h5>
+            <ul>
+                <p>Facebook</p>
+                <p>Twiter</p>
+                <p>Youtub</p>
+                <p>Join Affipate</p>
+            </ul>
+        </div>
+    </div>
+       </div>
+       <hr>
+       <p>copy right by Md Raihan ali</p>
+</footer>
+
+
+
+
+   <script>
+       let manu = document.querySelector('.manu');
+       let nb = document.querySelector('.nb');
+       manu.addEventListener('click',function(){
+           nb.classList.toggle('ul-b')
+       })
+
+
+
+       var imgsa = document.getElementsByClassName("imgs")
+       var maneImg = document.getElementById("maneImg")
+
+       imgsa[0].onclick = function(){
+           maneImg.src = imgsa[0].src;
+       }
+       imgsa[1].onclick = function(){
+           maneImg.src = imgsa[1].src;
+       }
+       imgsa[2].onclick = function(){
+           maneImg.src = imgsa[2].src;
+       }
+       imgsa[3].onclick = function(){
+           maneImg.src = imgsa[3].src;
+       }
+   </script>
+</body>
+</html>
